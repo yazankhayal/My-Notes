@@ -109,8 +109,8 @@ class ReminderController extends Controller
 
         // Fetch records
         $records = Reminder::orderBy($columnName, $columnSortOrder)->where('user_id',user()->id)
-            ->where('Reminder.name', 'like', '%' . $searchValue . '%')
-            ->select('Reminder.*')
+            ->where('reminder.name', 'like', '%' . $searchValue . '%')
+            ->select('reminder.*')
             ->skip($start)
             ->take($rowperpage)
             ->get();
