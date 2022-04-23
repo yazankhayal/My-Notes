@@ -10,7 +10,7 @@
 <title>{{setting()->name}}</title>
 
 <!-- FAVICON AND TOUCH ICONS  -->
-<link rel="icon" type="image/png" href="{{setting()->logo_black()}}">
+<link rel="shortcut icon" href="{{setting()->logo_black()}}"/>
 
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
