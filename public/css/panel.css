@@ -127,3 +127,11 @@ body {
     border-radius: 0.25rem;
     transition: all .2s linear;
 }
+
+.toast-error{
+    background-color: red!important;
+}
+
+.toast-message{
+    color: white!important;
+}
