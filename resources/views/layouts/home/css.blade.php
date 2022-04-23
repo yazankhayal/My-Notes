@@ -10,12 +10,7 @@
 <title>{{setting()->name}}</title>
 
 <!-- FAVICON AND TOUCH ICONS  -->
-<link rel="shortcut icon" href="{{setting()->logo_black()}}" type="image/x-icon">
-<link rel="icon" href="{{setting()->logo_black()}}" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="152x152" href="{{setting()->logo_black()}}">
-<link rel="apple-touch-icon" sizes="120x120" href="{{setting()->logo_black()}}">
-<link rel="apple-touch-icon" sizes="76x76" href="{{setting()->logo_black()}}">
-<link rel="apple-touch-icon" href="{{setting()->logo_black()}}">
+<link rel="icon" type="image/x-icon" href="{{setting()->logo_black()}}">
 
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
