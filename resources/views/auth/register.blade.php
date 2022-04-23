@@ -64,7 +64,7 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-md-12 offset-md-4">
+            <div class="col-md-12">
                 <button type="submit" class="btn btn-block btn-md btn-theme theme-hover submit">
                     {{ __('Register') }}
                 </button>
