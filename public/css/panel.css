@@ -128,6 +128,10 @@ body {
     transition: all .2s linear;
 }
 
+.bootstrap-tagsinput .tag{
+    background-color: #0C56D0!important;
+}
+
 .toast-error{
     background-color: red!important;
 }
